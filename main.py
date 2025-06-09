@@ -87,13 +87,10 @@ def main():
                 
                 if resultado != -1:
                     producto = productos[resultado]
-                    print(f"¡Producto encontrado en la posición {resultado}!")
                     print(f"Código: {producto['codigo']}")
                     print(f"Nombre: {producto['nombre']}")
                     print(f"Precio: ${producto['precio']}")
                     print(f"Stock: {producto['stock']} unidades")
-                else:
-                    print("Producto no encontrado.")
                 print(f"Búsqueda completada en {tiempo:.6f} segundos")
                 
             elif opcion == 5:
@@ -108,13 +105,10 @@ def main():
                 
                 if resultado != -1:
                     producto = productos_ordenados[resultado]
-                    print(f"¡Producto encontrado en la posición {resultado}!")
                     print(f"Código: {producto['codigo']}")
                     print(f"Nombre: {producto['nombre']}")
                     print(f"Precio: ${producto['precio']}")
                     print(f"Stock: {producto['stock']} unidades")
-                else:
-                    print("Producto no encontrado.")
                 print(f"Búsqueda completada en {tiempo:.6f} segundos")
                 
             elif opcion == 6:
